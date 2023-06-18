@@ -395,6 +395,47 @@ section .title::after{
     width: 70%;
 }
 
+.badges{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit,minmax(120px, 1fr));
+}
+
+.badge{
+    width: 50%;
+    height: auto;
+}
+
+.html img{
+    width: 100%;
+    height: auto;
+}
+
+.css img{
+    width: 100%;
+    height: auto;
+}
+
+
+.js img{
+    width: 100%;
+    height: auto;
+}
+
+.java img{
+    width: 100%;
+    height: auto;
+}
+
+.mysql img{
+    width: 100%;
+    height: auto;
+}
+
+.python img{
+    width: 100%;
+    height: auto;
+}
 
 /* contact section styling */
 .contact{

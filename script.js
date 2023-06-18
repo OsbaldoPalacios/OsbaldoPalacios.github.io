@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Físico", "Matemático", "Desarrollador Web"],
+        strings: ["Físico matemático", "Desarrollador Web"],
         typeSpeed: 50,
         backSpeed: 60,
         loop: true
@@ -71,3 +71,4 @@ $(document).ready(function(){
         }
     });
 });
+

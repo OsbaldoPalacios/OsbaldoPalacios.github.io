@@ -333,10 +333,11 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #64ffda;
+    background-color: #64ffda;
+    transform: translateY(-10px);
 }
 .services .serv-content .card .box{
-    transition: all 0.3s ease;
+    transition: background-color 0.5s, transform 0.5s;
 }
 .services .serv-content .card:hover .box{
     transform: scale(1.05);

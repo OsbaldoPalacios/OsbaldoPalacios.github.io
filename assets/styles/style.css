@@ -248,6 +248,8 @@ section .title::after{
 }
 .about .about-content .right p{
     text-align: justify;
+    font-size: 17px;
+    font-weight: 500;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -456,6 +458,7 @@ section .title::after{
 }
 .contact .contact-content .left p{
     text-align: justify;
+    font-weight: 500;
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;

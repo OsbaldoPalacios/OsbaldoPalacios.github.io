@@ -337,6 +337,8 @@ section .title::after{
 }
 .skills .skills-content .left p{
     text-align: justify;
+    font-size: 17px;
+    font-weight: 500;
 }
 .skills .skills-content .left a{
     display: inline-block;

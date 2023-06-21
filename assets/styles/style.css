@@ -263,10 +263,9 @@ section .title::after{
     background-color: #133B5C;
     color: #fff;
 }
-
-.about .title::after{
+/*.about .title::after{
     
-}
+}*/
 .about .about-content .left{
     width: 45%;
 }
@@ -321,10 +320,12 @@ section .title::after{
 .teams .title::before{
     background: #fff;
 }
-.services .title::after,
+
+/*.services .title::after,
 .teams .title::after{
     
-}
+}*/
+
 .services .serv-content .card{
     width: calc(33% - 20px);
     background: #133B5C;
@@ -366,9 +367,9 @@ section .title::after{
     color:#fff;
 }
 
-.skills .title::after{
+/*.skills .title::after{
    
-}
+}*/
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }

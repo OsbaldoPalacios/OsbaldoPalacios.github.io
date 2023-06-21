@@ -7,6 +7,7 @@
     --scrollbar-thumb-hover: #555;
     --Toggle: linear-gradient(90deg,hsl(210, 78%, 56%) 30%,hsl(146, 68%, 55%) 70%);
     --BG: hsl(230, 17%, 14%);
+    --Blue-Light: #006287; /*#33D5AE*/
 }
 
 *{
@@ -89,17 +90,18 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
-    background-color: #0a192f;
+    background-color: #081528; /* ##0A192F */
     position: fixed;
     width: 100%;
     z-index: 999;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0. 0.15);
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #64ffda;
+    background: var(--Blue-Light);
 }
 .navbar .max-width{
     display: flex;
@@ -333,7 +335,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background-color: #64ffda;
+    background-color: #33D5AE;  /* #64ffda*/
     transform: translateY(-10px);
 }
 .services .serv-content .card .box{
@@ -543,13 +545,14 @@ section .title::after{
 .contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid lightgrey; /* lightgrey*/
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
+    background-color: #F4F6F7;
 }
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus{

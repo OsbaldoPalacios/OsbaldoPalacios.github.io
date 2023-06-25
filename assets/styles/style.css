@@ -7,7 +7,8 @@
     --scrollbar-thumb-hover: #555;
     --Toggle: linear-gradient(90deg,hsl(210, 78%, 56%) 30%,hsl(146, 68%, 55%) 70%);
     --BG: hsl(230, 17%, 14%);
-    --Blue-Light: #006287; /*#33D5AE*/
+    --Blue-navbar: #006287; /*#33D5AE*/
+    --Blue-light: #64ffda;
 }
 
 *{
@@ -83,7 +84,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #64ffda;
+    color: var(--Blue-light);
     padding: 0 5px;
     transform: translateX(-50%);
 }
@@ -101,7 +102,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: var(--Blue-Light);
+    background: var(--Blue-navbar);
 }
 .navbar .max-width{
     display: flex;
@@ -114,7 +115,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: #64ffda;
+    color: var(--Blue-light);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -133,7 +134,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #64ffda;
+    color: var(--Blue-light);
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -181,7 +182,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #64ffda;
+    background: var(--Blue-light);
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -237,23 +238,23 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #64ffda;
+    color: var(--Blue-light);
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: #64ffda;
+    background: var(--Blue-light);
     color: #111;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #64ffda;
+    border: 2px solid var(--Blue-light);
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: #64ffda;
+    color: var(--Blue-light);
     background: none;
 }
 
@@ -284,7 +285,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: #64ffda;
+    color: var(--Blue-light);
 }
 .about .about-content .right p{
     text-align: justify;
@@ -293,18 +294,18 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #64ffda;
+    background: var(--Blue-light);
     color: #111;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #64ffda;
+    border: 2px solid var(--Blue-light);
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #64ffda;
+    color: var(--Blue-light);
     background: none;
 }
 
@@ -347,7 +348,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: #64ffda;
+    color: var(--Blue-light);
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -385,18 +386,18 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: #64ffda;
+    background: var(--Blue-light);
     color: #111;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #64ffda;
+    border: 2px solid var(--Blue-light);
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: #64ffda;
+    color: var(--Blue-light);
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -424,7 +425,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: #64ffda;
+    background: var(--Blue-light);
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -518,13 +519,13 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: #64ffda;
+    color: var(--Blue-light);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #64ffda;
+    color: var(--Blue-light);
 }
 .contact .right form .fields{
     display: flex;
@@ -578,12 +579,12 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: #64ffda;
-  border: 2px solid #64ffda;
+  background: var(--Blue-light);
+  border: 2px solid var(--Blue-light);
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: #64ffda;
+  color: var(--Blue-light);
   background: none;
 }
 /* footer section styling */
@@ -594,7 +595,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: #64ffda;
+    color: var(--Blue-light);
     text-decoration: none;
 }
 footer span a:hover{
